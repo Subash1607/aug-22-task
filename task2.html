@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        img{
+            width: 40px;
+            height: 40px;
+            border: 2px solid black;
+        }
+        #content>p {
+            background-color: lightgray;
+            font-size: 1rem;
+            font-family: Verdana;
+            width: 300px;
+            padding: 10px;
+        }
+        #content{
+                display: none;
+        }
+        .icon:active ~ #content{
+            display: block;
+
+        }
+       
+
+    </style>
+</head>
+<body>
+    <input hidden type="checkbox" name="" id="">
+    <label for="checkbox">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png" alt="">
+
+    </label>
+    <div class="icon">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png" alt="">
+    
+</div>
+
+    <div id="content">
+        <p>Accounts</p>
+        <p>Deposits</p>
+        <p>Payments</p>
+        <p>Cards</p>
+        <p>Loans</p>
+        <p>Investment</p>
+        <p>Insurance</p>
+    </div>
+
+
+</body>
+</html>
